@@ -3,9 +3,9 @@ package alan_in_class.Week_1_Exercises;
 import java.util.Scanner;
 
 public class CalcMax {
-    public static int getValidInteger(Integer userInput) {
-        Scanner input = new Scanner(System.in);
+    static Scanner input = new Scanner(System.in);
 
+    public static int getValidInteger(String userInput) {
         System.out.print(userInput);
         while (!input.hasNextInt()) {
             System.out.println("Not a number. Try again.");
@@ -29,5 +29,14 @@ public class CalcMax {
 
         return largest;
     }
-}
 
+    public static void main() {
+        int num1 = getValidInteger("Please enter the first number: ");
+        int num2 = getValidInteger("Please enter the second number: ");
+        int num3 = getValidInteger("Please enter the third number: ");
+
+        int largest = findMax(num1, num2, num3);
+        System.out.println("The largest number is: " + largest);
+    }
+
+}

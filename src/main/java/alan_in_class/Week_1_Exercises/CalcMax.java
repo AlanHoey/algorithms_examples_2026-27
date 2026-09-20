@@ -40,7 +40,7 @@ public class CalcMax {
         return largest;
     }
 
-    public static void main() {
+    static void main() {
         int num1 = getValidInteger("Please enter the first number: ");
         int num2 = getValidInteger("Please enter the second number: ");
         int num3 = getValidInteger("Please enter the third number: ");

@@ -30,6 +30,16 @@ public class CalcMax {
         return largest;
     }
 
+    public static int findMax(int[] numbers) {
+        int largest = numbers[0];
+        for (int i = 1; i < numbers.length; i++) {
+            if (numbers[i] > largest) {
+                largest = numbers[i];
+            }
+        }
+        return largest;
+    }
+
     public static void main() {
         int num1 = getValidInteger("Please enter the first number: ");
         int num2 = getValidInteger("Please enter the second number: ");

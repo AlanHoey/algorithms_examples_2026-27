@@ -1,0 +1,4 @@
+Write a static method called displayArray() in ArrayUtils.java that:
+• Takes in an integer array
+• Prints out all the elements in the array (and their position in the array). This should not use the Arrays class!
+

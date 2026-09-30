@@ -1,6 +1,12 @@
 package alan_in_class.utils;
 
 public class ArrayUtils {
+    /**
+     * Calculates the average of the values in an integer array.
+     *
+     * @param numbers the array of integer values to average
+     * @return the arithmetic mean of the array values
+     */
     public static double calcAverage(int[] numbers) {
         if (numbers.length == 0) {
             throw new IllegalArgumentException("Cannot calculate the average of an empty array.");

@@ -1,0 +1,7 @@
+import java.util.Scanner;
+
+public class Exercise {
+    static void main() {
+        System.out.println("Please enter your age");
+        Scanner input = new Scanner(System.in);
+        Int age = input.nextLine();
